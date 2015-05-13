@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
+    
+    <TextView android:id="@+id/view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="20sp"
+        />
+    <TextView android:id="@+id/view_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:textSize="20sp"
+        />
+    
+    <TextView android:id="@+id/view_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textSize="20sp"
+        />
+    
+    <TextView android:id="@+id/view_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/note"
+        android:textSize="20sp"
+        />
+    <TextView android:id="@+id/note_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        />
+    
+	<Button
+	    android:id="@+id/activity_btn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="sendResult"
+	    android:text="@string/act_btn" />
+
+</LinearLayout>

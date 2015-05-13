@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/river_info"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/info"/>
+
+</menu>
+<!-- From: file:/C:/Users/Mission/StudioProjects/ListViewTest/app/src/main/res/menu/rivermain.xml -->
